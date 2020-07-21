@@ -8,9 +8,5 @@ test_patterns = [
 name = "go"
 enabled = true
 
-    [analyzers.meta]
-    import_path = "github.com/esquarer/go-rest"
-
-[[analyzers]]
-name = "test-coverage"
-enabled = true
+[analyzers.meta]
+import_path = "github.com/esquarer/go-rest"
